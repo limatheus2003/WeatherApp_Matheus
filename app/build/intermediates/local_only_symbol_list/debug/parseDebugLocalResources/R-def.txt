@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id appName
+id btnBuscar
+id btnSobre
+id btnVoltar
+id editCidade
+id fabScan
+id logo
+id txtCidade
+id txtDescricao
+id txtSobre
+id txtTemperatura
+id txtTitle
+layout activity_main
+layout activity_sobre
+layout activity_splash
+mipmap ic_launcher
+mipmap ic_launcher_round

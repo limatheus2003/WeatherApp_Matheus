@@ -1,0 +1,146 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.matheus.weatherapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+12-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+12-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
+13    <uses-feature
+13-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+14        android:name="android.hardware.camera"
+14-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+15        android:required="false" />
+15-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+16    <uses-feature
+16-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+17        android:name="android.hardware.camera.front"
+17-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+18        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+18-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+19    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+20    <uses-feature
+20-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+21        android:name="android.hardware.camera.autofocus"
+21-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+22        android:required="false" />
+22-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+23    <uses-feature
+23-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+24        android:name="android.hardware.camera.flash"
+24-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+25        android:required="false" />
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+26    <uses-feature
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+27        android:name="android.hardware.screen.landscape"
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+28        android:required="false" />
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+29    <uses-feature
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+30        android:name="android.hardware.wifi"
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+31        android:required="false" />
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+32
+33    <permission
+33-->[androidx.core:core:1.9.0] C:\Users\ADM\.gradle\caches\transforms-4\1cec98d0b2db29ee20807970971c8043\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+34        android:name="com.matheus.weatherapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34-->[androidx.core:core:1.9.0] C:\Users\ADM\.gradle\caches\transforms-4\1cec98d0b2db29ee20807970971c8043\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+35        android:protectionLevel="signature" />
+35-->[androidx.core:core:1.9.0] C:\Users\ADM\.gradle\caches\transforms-4\1cec98d0b2db29ee20807970971c8043\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+36
+37    <uses-permission android:name="com.matheus.weatherapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37-->[androidx.core:core:1.9.0] C:\Users\ADM\.gradle\caches\transforms-4\1cec98d0b2db29ee20807970971c8043\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.9.0] C:\Users\ADM\.gradle\caches\transforms-4\1cec98d0b2db29ee20807970971c8043\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+38
+39    <application
+39-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:7:5-28:19
+40        android:allowBackup="true"
+40-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:8:9-35
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.9.0] C:\Users\ADM\.gradle\caches\transforms-4\1cec98d0b2db29ee20807970971c8043\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+42        android:debuggable="true"
+43        android:extractNativeLibs="false"
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:9:9-43
+45        android:label="WeatherApp"
+45-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:10:9-35
+46        android:roundIcon="@mipmap/ic_launcher_round"
+46-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:11:9-54
+47        android:supportsRtl="true"
+47-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:12:9-35
+48        android:testOnly="true"
+49        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+49-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:13:9-65
+50        <activity android:name="com.matheus.weatherapp.MainActivity" />
+50-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:15:9-50
+50-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:15:19-47
+51        <activity android:name="com.matheus.weatherapp.SobreActivity" />
+51-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:17:9-51
+51-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:17:19-48
+52        <activity
+52-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:19:9-26:20
+53            android:name="com.matheus.weatherapp.SplashActivity"
+53-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:20:13-43
+54            android:exported="true" >
+54-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:21:13-36
+55            <intent-filter>
+55-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:22:13-25:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:23:17-69
+56-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:23:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:24:17-77
+58-->C:\Users\ADM\Desktop\WeatherApp_Matheus (1)\app\src\main\AndroidManifest.xml:24:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+62            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+62-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+63            android:clearTaskOnLaunch="true"
+63-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+64            android:screenOrientation="sensorLandscape"
+64-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+65            android:stateNotNeeded="true"
+65-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+66            android:theme="@style/zxing_CaptureTheme"
+66-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+67            android:windowSoftInputMode="stateAlwaysHidden" />
+67-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\ADM\.gradle\caches\transforms-4\bac6e0bb408f0ae3eb23eb8c601bb6d3\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+68
+69        <provider
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADM\.gradle\caches\transforms-4\238a939edeeaf72ef085850f1b0bb61a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADM\.gradle\caches\transforms-4\238a939edeeaf72ef085850f1b0bb61a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+71            android:authorities="com.matheus.weatherapp.androidx-startup"
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADM\.gradle\caches\transforms-4\238a939edeeaf72ef085850f1b0bb61a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+72            android:exported="false" >
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADM\.gradle\caches\transforms-4\238a939edeeaf72ef085850f1b0bb61a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+73            <meta-data
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADM\.gradle\caches\transforms-4\238a939edeeaf72ef085850f1b0bb61a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADM\.gradle\caches\transforms-4\238a939edeeaf72ef085850f1b0bb61a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+75                android:value="androidx.startup" />
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADM\.gradle\caches\transforms-4\238a939edeeaf72ef085850f1b0bb61a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ADM\.gradle\caches\transforms-4\df27701acf542fd150618e60febeea80\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ADM\.gradle\caches\transforms-4\df27701acf542fd150618e60febeea80\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ADM\.gradle\caches\transforms-4\df27701acf542fd150618e60febeea80\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+79        </provider>
+80    </application>
+81
+82</manifest>
